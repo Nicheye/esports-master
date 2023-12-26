@@ -48,8 +48,8 @@ html{
 	text-decoration: none;
   }
   body{
-    /* background-image:url('assets/images/back.jpg'); */
-    background: #121212;
+    background-image:url('assets/images/back.jpg');
+    /* background: #121212; */
   }
   .header{
     display: flex;
@@ -154,9 +154,14 @@ html{
   line-height: normal;
   }
   .main-container{
+    
     max-width: 1160px;
     margin: 0 auto;
+    
 
+  }
+  .main-container.games{
+    position: relative;  
   }
   .title {
     color: #FFF;
@@ -685,4 +690,12 @@ line-height: normal;
 }
 .login-input.social_input::placeholder{
   color: palevioletred;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 100px;
+  min-width: 100%;
+  min-height: 100%;
 }

@@ -26,7 +26,10 @@ const Games = () => {
 		  })();
 	  },[]);
   return (
-	<div className='main-container'>
+	<div className="all">
+		<video controls="" autoplay="" muted loop id='myVideo' name="media"><source src="http://localhost:5173/src/assets/33333.mp4" type="video/mp4"/></video>
+<div className='main-container games' >
+		
 		<div className="title game-title">ВЫБЕРИ ИГРУ</div>
 		<div className="subtitle game-subtitle">ПО СВОЕМУ ИНТЕРЕСУ</div>
 		<div className="game-card-wrapper">
@@ -42,6 +45,8 @@ const Games = () => {
 	)}
 		</div>
 		</div>
+	</div>
+	
   )
 }
 
